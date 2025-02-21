@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.App {
+  text-align: center;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a span {
+  margin-right: 8px;
+}
+
+nav a:hover {
+  color: #c91826;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
